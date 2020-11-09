@@ -1,3 +1,7 @@
 $ (document).ready (function (){
-$ ('li').css ('color', 'red'); 
+$ ('ul>li').css ('color', 'red'); 
 });
+
+$ (document).ready (function(){
+    $("ul").children().css("color", "red"); /* tous les enfants de UL seront rouges */
+}

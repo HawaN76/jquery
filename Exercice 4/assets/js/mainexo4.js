@@ -1,7 +1,7 @@
 $ (document).ready (function() {
 
-$('#firstText').empty(); 
-$ ('#secondText').remove();
+$('#firstText').empty(); /* disparition du premier paragraphe - vider */
+$ ('#secondText').remove(); /* pour supprimer les élements */
 
 
 });
